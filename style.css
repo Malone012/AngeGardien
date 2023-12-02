@@ -126,6 +126,36 @@ body {
 	line-height: 1.5;
 }
 
+/* Contenu2 */
+
+#contenu2 {
+	color: #ffffff;
+	background: #21263F;
+}
+#contenu2 a {
+	color: #332510;
+}
+#contenu2 a:hover, #contenu a:focus {
+	color: #3E3D4C;
+}
+#contenu2 strong {
+	color: #3E3D4C; 
+}
+#contenu2 {
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 50px; 
+	margin-bottom: 20px;
+	padding: 10px 20px;
+	font-size: 1.25em;
+}
+#contenu2 > :first-child {
+	margin-top: 10px;
+}
+#contenu2 p, #contenu li {
+	line-height: 1.5;
+}
+
 
 /* Description */
 
