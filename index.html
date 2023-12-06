@@ -9,11 +9,17 @@
         <script language="JavaScript"> 
             function passe() {
             var mot=document.form1.pass.value
-            if (mot=="nuit.de.nacre") {
-                window.location.href="martin.html"; 
+            if (mot=="25") {
+                window.location.href="index2.html"; 
             }
-            else if (mot=="nuit.de.nacre") {
-                window.location.href="martin.html";
+            else if (mot=="Martin") {
+                window.location.href="index3.html";
+            }
+            else if (mot=="martin") {
+                window.location.href="index3.html";
+            }
+            else if (mot=="MARTIN") {
+                window.location.href="index3.html";
             }
             else {
                 alert("Mauvais mot de passe");
@@ -33,7 +39,7 @@
                     Salut Eva, c'est ton Ange <br>
                     Ce site internet sera notre lieu de rendez-vous.<br>
                     Comme tu peux le constater, tu devras trouvé plusieurs mots de passe pour accèder à la suite.<br>
-		    La première épreuve commencera certainement Lundi.<br>
+		            La première épreuve commencera certainement Lundi.<br>
                     Bonne chance.
                 </p>
             </center>
@@ -42,7 +48,7 @@
             <center>
                 <FORM name="form1">
                     <h3>Mot de passe:</h3>
-                    <input type="password" id="pass" size=30 name="pass" minlength="2" required />&nbsp;&nbsp;
+                    <input type="password" id="pass" size=10 name="pass" minlength="2" required />&nbsp;&nbsp;
                 </FORM>
             </center>
         </div>
